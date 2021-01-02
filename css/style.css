@@ -108,3 +108,91 @@ nav a img{
         font-size: 2rem;
     }
 }
+
+/*  */
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    /* margin: 8rem 5%;
+    padding: 0; */
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#Founders {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start ;
+    width: 100%;
+}
+
+.heading {
+    font-family: 'Audiowide', cursive;
+    color: #DD6031;
+    width: auto;
+}
+
+.founder {
+    display: flex;
+    width: 75%;
+    flex-flow: row nowrap;
+}
+
+.profilepic {
+    max-height: 10rem;
+    margin: 0 25px;
+    border-radius: 250px;
+}
+
+.textContent{
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    padding-right: 10px;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+    text-align: right;
+    align-self: flex-end;
+}
+
+.textContentRight{
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-end;
+    padding-left: 10px;
+}
+
+.subHeading {
+    border-bottom: 3px #79B791 solid;
+    font-family: 'Audiowide';
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-flow: row nowrap;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.fa {
+    padding: 20px;
+    padding-top: 0;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: #79B791;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+    color: ;
+  }
